@@ -15,6 +15,7 @@ class StartApp extends StatelessWidget {
         theme: lightTheme,
         title: 'History Page',
         home: const HistoryScreen(),
+        debugShowCheckedModeBanner: false,
       ),
     );
   }
